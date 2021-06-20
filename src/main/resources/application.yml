@@ -2,6 +2,8 @@ spring:
   devtools:
     restart:
       enabled: true
+    livereload:
+      enabled: true
   datasource:
     hikari:
       spring.jpa.show-sql: true

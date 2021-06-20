@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sbtest.mapper.TestMapper">
+
+    <select id="getList" resultType="TestDto">
+        SELECT ID AS id
+            , NAME AS name
+        FROM TB_TEST;
+    </select>
+</mapper>

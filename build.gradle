@@ -31,7 +31,7 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation group: 'com.googlecode.log4jdbc', name: 'log4jdbc', version: '1.2'
-
+    implementation group: 'org.springframework.experimental.aot', name: 'org.springframework.experimental.aot.gradle.plugin', version: '0.10.1', ext: 'pom'
 }
 
 test {
